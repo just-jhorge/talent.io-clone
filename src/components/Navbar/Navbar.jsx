@@ -53,10 +53,11 @@ const Navbar = () => {
 				<div className="hidden lg:flex items-center justify-center gap-5">
 					<div className="flex items-center justify-center gap-5">
 						{navLinks.map((link) => (
-							<div className="flex items-center justify-center gap-1 cursor-pointer">
-								<a key={link.id} href="/">
-									{link.linkName}
-								</a>
+							<div
+								key={link.id}
+								className="flex items-center justify-center gap-1 cursor-pointer"
+							>
+								<a href="/">{link.linkName}</a>
 								<BsChevronDown className="text-md" />
 							</div>
 						))}

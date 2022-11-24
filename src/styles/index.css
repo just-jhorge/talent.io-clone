@@ -6,3 +6,11 @@ body {
 	font-family: "Poppins", sans-serif;
 	overflow-x: hidden;
 }
+
+.tab-button {
+	@apply px-7 py-2 border border-gray-700 bg-white/10 rounded-md;
+}
+
+.list-item {
+	@apply mb-2.5 last:mb-0 flex items-start justify-start before:mr-3 before:block before:translate-y-2 before:h-2 before:w-2 before:rounded-full before:bg-deepYellow;
+}
