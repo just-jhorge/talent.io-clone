@@ -8,7 +8,7 @@ body {
 }
 
 .tab-button {
-	@apply px-7 py-2 border border-gray-700 bg-white/10 rounded-md;
+	@apply px-7 py-2 border-gray-700 rounded-md;
 }
 
 .list-item {

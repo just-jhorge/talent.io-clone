@@ -40,7 +40,7 @@ const Navbar = () => {
 
 	return (
 		<nav
-			className={`w-full fixed text-md ${
+			className={`w-full fixed z-50 text-md ${
 				scrollPosition > 10
 					? "bg-white drop-shadow-md text-veryDarkBlue"
 					: "bg-transparent text-white"

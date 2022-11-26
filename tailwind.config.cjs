@@ -16,8 +16,11 @@ module.exports = {
 			colors: {
 				veryDarkBlue: "rgb(0, 19, 47)",
 				mediumDarkBlue: "rgb(5, 25, 55)",
-				lightDarkBlue: "rgb(7, 32, 69)",
 				subtleBlue: "rgb(15, 47, 95)",
+				lightDarkBlue: "rgb(7, 32, 69)",
+				mediumLightBlue: "#D9EBFD",
+				veryLightBlue: "#F5FAFE",
+				activeBlue: "#15458A",
 				deepYellow: "rgb(251,206,112)",
 				mediumYellow: "rgb(255, 225, 162)",
 				lightYellow: "rgb(255,239,206)",
