@@ -30,7 +30,7 @@ const Footer = () => {
 						<div className="absolute z-20 flex flex-col items-center justify-center gap-5">
 							<img src={envelope} className="h-16" alt="Envelope" />
 							<div className="text-center">
-								Refer a friend and win $500 <br /> when they get hired
+								Refer a friend and win 500 <br /> when they get hired
 							</div>
 							<button className="bg-subtleBlue text-white px-5 py-3 rounded-md text-sm">
 								Refer a friend
