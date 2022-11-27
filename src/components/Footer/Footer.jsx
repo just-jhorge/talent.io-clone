@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.svg";
+import envelope from "../../assets/envelope.svg";
 import { footerLinks } from "../../data/data";
 
 const Footer = () => {
@@ -25,19 +26,20 @@ const Footer = () => {
 							</div>
 						))}
 					</div>
-					<div className="relative w-1/4 h-60 bg-lightDarkBlue rounded-lg">
-						{/* <svg
-							className="absolute bottom-0 rounded-b-lg"
-							xmlns="http://www.w3.org/2000/svg"
+					<div className="relative w-1/4 h-64 bg-lightDarkBlue text-white rounded-lg flex items-center justify-center">
+						<div className="absolute z-20 flex flex-col items-center justify-center gap-5">
+							<img src={envelope} className="h-16" alt="Envelope" />
+							<div className="text-center">
+								Refer a friend and win $500 <br /> when they get hired
+							</div>
+							<button className="bg-subtleBlue text-white px-5 py-3 rounded-md text-sm">
+								Refer a friend
+							</button>
+						</div>
+						<svg
+							className="absolute z-10 top-0 rounded-t-lg"
 							viewBox="0 0 1440 320"
 						>
-							<path
-								fill="#081A36"
-								fill-opacity="1"
-								d="M0,160L80,176C160,192,320,224,480,202.7C640,181,800,107,960,74.7C1120,43,1280,53,1360,58.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-							></path>
-						</svg> */}
-						<svg className="absolute top-0 rounded-t-lg" viewBox="0 0 1440 320">
 							<path
 								fill="#081A36"
 								fill-opacity="1"
